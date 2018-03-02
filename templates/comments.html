@@ -1,0 +1,14 @@
+<div>
+    <h1>Agrega un comentario</h1>
+    <h3>Nombre:</h3>
+    <input type="text" ng-model="comment.name"/><br>
+    <h3>Comentario:</h3>
+    <textarea name="comment" form="usrform" ng-model="comment.text"></textarea><br>
+    <button ng-click="addComment()">Agregar</button>
+    <ul>
+        <li ng-repeat="c in listComments">
+            <label>{{c.name}} dice:</label><br>
+            <label> {{c.text}} </label>
+        </li>
+      </ul>
+</div>

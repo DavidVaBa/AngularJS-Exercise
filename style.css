@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+}
+
+nav{
+    background-color: rgba(120, 221, 111, 0.938);
+    height: 50px;;
+    border-bottom: 2px solid rgb(59, 59, 59);
+}
+
+nav h1{
+    float: left;
+    margin: 10px 10px;
+}
+
+nav h3{
+    float: right;
+    margin: 12px 10px;
+}
+
+.contactTable th{
+    margin: 0px;
+}
+
+.contactTable td{
+    padding: 5px;
+    text-align: center;
+    margin: 0px;
+    border-top: 2px solid black;
+}
+
+.image{
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+    opacity: .5;
+    transition: 2s;
+}
+
+.imageSelected{
+    height: 200px;
+    width: 200px;
+    padding: 15px;
+    opacity: 1;
+}

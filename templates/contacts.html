@@ -1,0 +1,15 @@
+<div ng-controller="contactsController">
+    <h1>Mis contactos</h1>
+    <table ng-init="getInfo()" class="contactTable">
+        <thead>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Teléfono</th>
+        </thead>
+        <tr ng-repeat="user in users">
+            <td>{{user.name}}</td>
+            <td>{{user.email | emailFilter}}</td>
+            <td>{{user.phone}}</td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,4 @@
+<div ng-init="getInfo()">
+    <h1>Mi album de fotos</h1>
+    <img ng-class="{'imageSelected': flag}" ng-mouseenter="flag=!flag" ng-mouseleave="flag=!flag" ng-repeat="img in photos" src="{{img}}" class="image">
+</div>

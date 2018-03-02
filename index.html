@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="appModule">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.9/angular-route.min.js"></script>
+    <script src="angular-local-storage.js"></script>
+    <script src="appModule.js"></script>
+    <script src="controllers.js"></script>
+    <script src="factory.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+  <title>David SPA</title>
+</head>
+<body>
+    <nav>
+        <h1>David</h1>
+        <div>
+            <h3><a href="#!/comments">Comentarios</a></h3>
+            <h3><a href="#!/contacts">Contactos</a></h3>
+            <h3><a href="#!/hobbies">Fotos</a></h3>
+            <h3><a href="#!/info">Información</a></h3>
+        </div>
+    </nav>
+    <div ng-view></div>
+</body>
+</html>
